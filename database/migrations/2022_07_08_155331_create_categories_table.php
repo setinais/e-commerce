@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('categories', function (Blueprint $table) {
-            $table->uuid('id');
+            $table->id();
             $table->string('name');
             $table->foreignUuid('sub_categories_id');
             $table->timestamps();
