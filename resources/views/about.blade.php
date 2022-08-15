@@ -44,6 +44,7 @@
                     <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
                     <li><a class="nav-link scrollto" href="#team">Time</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contate-nós</a></li>
+                    <li><a class="nav-link scrollto shoping" href="{{ url('shop') }}">Loja  <i class="bx bx-shopping-bag"></i></a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -390,7 +391,7 @@
                 <div class="row">
 
                     <div class="col-lg-6 ">
-                        <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed/v1/place?key={{ config('app.google_maps') }}=RODOKAR+Tacográfo,Paraiso+do+Tocantins+Brasil" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+                        <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed/v1/place?key={{ config('app.google_maps') }}&q=RODOKAR+Tacográfo,Paraiso+do+Tocantins+Brasil" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
                     </div>
 
                     <div class="col-lg-6">
@@ -488,8 +489,8 @@
                 <!-- You can delete the links only if you purchased the pro version. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/ -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a><br>
-                Developed by <a href="https://www.facebook.com/vinnicyus.carvalho">Vinnicyus Carvalho</a>
+{{--                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a><br>--}}
+                Developed by <a target="_blank" href="https://www.linkedin.com/in/vinnicyus-carvalho-gon%C3%A7alves-052a601a6">Vinnicyus Carvalho</a>
             </div>
         </div>
     </footer><!-- End Footer -->

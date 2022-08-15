@@ -129,6 +129,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar li {
   position: relative;
 }
+
+.navbar li .shoping{
+    background-color: rgba(0,0,0, 0.4);
+}
+
 .navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
